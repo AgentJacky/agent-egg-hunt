@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f1204;
+  font-family: 'Georgia', serif;
+  color: orange;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  max-width: 500px;
+  padding: 40px;
+  background-color: transparent;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1d1d1d;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(180deg, orange, darkorange);
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.corner {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-image: url('flowers.png'); /* Replace with your actual floral corner graphic */
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+  transform: scaleX(-1);
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+  transform: scaleY(-1);
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+  transform: scaleX(-1) scaleY(-1);
+}body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f1204;
+  font-family: 'Georgia', serif;
+  color: orange;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  max-width: 500px;
+  padding: 40px;
+  background-color: transparent;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1d1d1d;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(180deg, orange, darkorange);
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.corner {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-image: url('flowers.png'); /* Replace with your actual floral corner graphic */
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+  transform: scaleX(-1);
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+  transform: scaleY(-1);
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+  transform: scaleX(-1) scaleY(-1);
+}
